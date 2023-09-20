@@ -13,6 +13,7 @@ author:         Joseph Petitti
 maintainer:     joseph@petitti.org
 copyright:      2023 Joseph Petitti
 license:        GPLv3
+license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
     README.md
@@ -22,6 +23,8 @@ source-repository head
   location: https://github.com/jojonium/advent-of-code-2017
 
 library
+  exposed-modules:
+      Day01
   other-modules:
       Paths_aoc2017
   hs-source-dirs:
